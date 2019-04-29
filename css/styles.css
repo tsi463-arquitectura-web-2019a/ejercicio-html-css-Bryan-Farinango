@@ -1,7 +1,7 @@
 .main{
 	background-color: #555555;
 	font-family: Arial;
-	width: 700px;
+	width: 800px;
 	margin: 0 auto;
 	}
 
@@ -39,7 +39,7 @@
 	background-color: #ffffff;
 	display: flex;
 	flex-direction: row;
-	padding: 10px;
+	padding: 5px;
 	color: #333333;
 	text-align: justify;
 
@@ -53,6 +53,8 @@
 
 .contenido a{
 	color: #ff8700;
+
+	text-decoration: underline;
 }
 
 .barra a{
@@ -73,18 +75,24 @@
 }
 
 .barra label{
+
 	font-weight: bold;
+	color: #333333;
 }
 
 .barra ul{
 	list-style: none;
-	padding-left: 10px;
+	padding-left: 20px;
 
 }
 
-.barra li{
+.barra li, a{
 	margin-top: 0;
-	padding: 0;
+	padding: 2px;
+	text-decoration: none;
 	font-weight: normal;
+
 }
+
+
 
